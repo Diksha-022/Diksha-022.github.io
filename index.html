@@ -32,11 +32,26 @@
             }
             #section-home div:first-child{
                 padding: 20px;
+
+            }
+            #section-project{
+                margin: 20px;
+            }
+            .two-projects{
+                display: flex;
+                height: 300;
+            }
+            .two-projects > div{
+                width: 50%;
+                border: 2px solid;
+                padding: 20px;
+                border-radius: 20px;
+
             }
 
 
            
-        }
+        
     </style>
 </head>
 <body>
@@ -74,6 +89,22 @@
             <img src="book_1.jpg"/>
         </div>
     </section>
-    
+    <section id="sectiion project">
+        <div class="two-projects">
+            <!--first two project-->
+            <div>
+                <h1>payento</h1>
+                <p>personal finanace mobile</p>
+                <img src="images/paymento.png" alt="">
+
+            </div>
+            <div>
+                <h1>taskit</h1>
+                <p>freelancing platform for individuals</p>
+                <img src="images/taskit.png" alt="">
+            </div>
+        </div>
+        
+    </section>
 </body>
 </html>
